@@ -50,7 +50,7 @@ function displayProducts(productList) {
     var content = ``;
     for (var i = 0; i < productList.length; i++) {
         content += `<tr class="table-custom mx-2">
-                <td>${i}</td>
+                <td>${i+1}</td>
                 <td>${productList[i].name}</td>
                 <td>${productList[i].price}</td>
                 <td>${productList[i].category}</td>
